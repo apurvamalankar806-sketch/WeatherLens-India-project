@@ -116,13 +116,9 @@ Phase 5 — ML Prediction (Random Forest)
 
 🔗 Streamlit App: `[link will be added after deployment]`
 
----
-
 ## Power BI Dashboard Preview
 
 > Screenshot will be added after dashboard completion.
-
----
 
 ## How to Run Locally
 
@@ -138,8 +134,6 @@ pip install -r requirements.txt
 streamlit run streamlit_app/app.py
 ```
 
----
-
 ## Status
 
 | Phase | Status |
@@ -153,16 +147,8 @@ streamlit run streamlit_app/app.py
 | Power BI dashboard | ⏳ Upcoming |
 | Deployment | ⏳ Upcoming |
 
----
-
 ## Author
 
 **Apurva**
 BSc Data Science — M.L. Dahanukar College, Mumbai
 [LinkedIn](#) · [GitHub](#)
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
