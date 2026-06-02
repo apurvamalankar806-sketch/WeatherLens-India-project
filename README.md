@@ -7,8 +7,6 @@ WeatherLens India is an end-to-end data science project that analyzes 24+ years 
 
 The project combines exploratory data analysis, unsupervised clustering, supervised machine learning, and interactive dashboards — built in both Python (Streamlit) and Power BI — to tell a complete story from raw data to actionable insight.
 
----
-
 ## Project Highlights
 
 - Cleaned and analyzed 24 years of multi-city Indian weather data (2000–2024)
@@ -17,8 +15,6 @@ The project combines exploratory data analysis, unsupervised clustering, supervi
 - Trained a Random Forest classifier to predict rainfall with ROC-AUC as the primary metric
 - Built an interactive Streamlit web app with a live ML prediction widget
 - Built a dark-theme Power BI dashboard for business-friendly visual storytelling
-
----
 
 ## Tech Stack
 
@@ -33,8 +29,6 @@ The project combines exploratory data analysis, unsupervised clustering, supervi
 | BI dashboard | Power BI Desktop |
 | Deployment | Render |
 | Version control | Git + GitHub |
-
----
 
 ## Project Structure
 
@@ -64,8 +58,6 @@ weatherlens-india/
 └── README.md
 ```
 
----
-
 ## Workflow
 
 ```
@@ -93,8 +85,6 @@ Phase 5 — ML Prediction (Random Forest)
   · Embedded as prediction widget in Streamlit
 ```
 
----
-
 ## Key Questions Answered
 
 - How much does humidity contribute to rainfall?
@@ -102,8 +92,6 @@ Phase 5 — ML Prediction (Random Forest)
 - Which months and seasons are most prone to unexpected rainfall?
 - What natural weather clusters exist in Indian climate data?
 - Can we reliably predict rain from atmospheric conditions?
-
----
 
 ## ML Model Details
 
@@ -118,15 +106,11 @@ Phase 5 — ML Prediction (Random Forest)
 
 > Note: Accuracy was intentionally avoided as the primary metric due to class imbalance in Indian rainfall data.
 
----
-
 ## Dataset
 
 - Source: [Kaggle — India Daily Weather 2000–2024](https://www.kaggle.com/datasets/developerghost/climate-in-india-daily-weather-data-2000-2024)
 - Records: 24 years of daily weather observations across major Indian cities
 - Features: Temperature, humidity, rainfall, wind speed, pressure, and more
-
----
 
 ## Live Demo
 
