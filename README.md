@@ -139,8 +139,9 @@ streamlit run streamlit_app/app.py
 | Phase | Status |
 |---|---|
 | Data collection | ✅ Done |
-| Data cleaning   | ✅ Done |  ← updated
-| EDA             | 🔄 In Progress |  ← updated
+| Data cleaning   | ✅ Done |
+| EDA             | ✅ Done |
+| Clustering      | 🔄 In Progress |
 | Clustering | ⏳ Upcoming |
 | ML model | ⏳ Upcoming |
 | Streamlit dashboard | ⏳ Upcoming |
