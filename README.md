@@ -5,7 +5,7 @@ End-to-end Indian weather analysis and rainfall prediction using Python, Streaml
 
 WeatherLens India is an end-to-end data science project that analyzes 24+ years of Indian weather data to uncover climate patterns, understand rainfall behaviour, and predict whether it will rain on a given day.
 
-The project combines exploratory data analysis, unsupervised clustering, supervised machine learning, and interactive dashboards — built in both Python (Streamlit) and Power BI — to tell a complete story from raw data to actionable insight.
+The project combines exploratory data analysis, unsupervised clustering, supervised machine learning, and interactive dashboards — built in both Python (Streamlit) and Power BI — to tell a complete story from raw data to actionable insights.
 
 ## Project Highlights
 
