@@ -138,11 +138,10 @@ streamlit run streamlit_app/app.py
 
 | Phase | Status |
 |---|---|
-| Data collection | ✅ Done |
-| Data cleaning   | ✅ Done |
-| EDA             | ✅ Done |
-| Clustering      | 🔄 In Progress |
-| Clustering | ⏳ Upcoming |
+| Data collection            | ✅ Done        |
+| Data cleaning              | ✅ Done        |
+| EDA                        | ✅ Done        |
+| Clustering (K-Means + PCA) | ✅ Done        |
 | ML model | ⏳ Upcoming |
 | Streamlit dashboard | ⏳ Upcoming |
 | Power BI dashboard | ⏳ Upcoming |
