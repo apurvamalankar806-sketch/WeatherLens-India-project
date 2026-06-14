@@ -147,7 +147,7 @@ streamlit run streamlit_app/app.py
 | Power BI dashboard | ⏳ Upcoming |
 | Deployment | ⏳ Upcoming |
 
-## Phases Completed
+## Phases Completed (Summary)
 
 ### Phase 1 — Data Collection
 - Dataset: India Daily Weather 2000–2024 (10 major cities)
