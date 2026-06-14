@@ -147,42 +147,37 @@ streamlit run streamlit_app/app.py
 | Power BI dashboard | ⏳ Upcoming |
 | Deployment | ⏳ Upcoming |
 
-## Project Summary
-
-WeatherLens India is an end-to-end data science project that analyzes 
-24 years of Indian weather data to predict whether it will rain on a 
-given day and understand the key atmospheric factors that contribute 
-to rainfall across major Indian cities.
+## Phases Completed
 
 ### Phase 1 — Data Collection
-Data was sourced from Kaggle containing daily weather records of 10 
-major Indian cities from 2000 to 2024, covering features like 
-temperature, rainfall, wind speed and weather conditions. A second 
-dataset containing live IMD weather data was considered but dropped 
-due to an empty file issue on Kaggle's end. The primary dataset of 
-91,320 rows was finalized for all downstream phases.
+- Dataset: India Daily Weather 2000–2024 (10 major cities)
+- Source: Kaggle
+- Records: 91,320 rows
 
-### Phase 2 — Data Cleaning and Feature Engineering
-The raw dataset was cleaned and transformed to make it analysis-ready. 
-Key steps included removing duplicate columns, fixing incorrect date 
-formats, dropping unreliable features like wind direction which showed 
-near-zero correlation with rainfall, and converting numeric weather 
-codes into human-readable condition labels. New meaningful columns were 
-engineered including season, temperature range, and a binary rainfall 
-target variable — bringing the final dataset to 91,320 rows and 15 
-clean columns.
+### Phase 2 — Data Cleaning & Feature Engineering
+- Removed duplicate columns (precipitation_sum)
+- Fixed date format (dayfirst=True)
+- Dropped unreliable features (wind_direction, wind_gusts)
+- Engineered new columns: season, temp_range, weather_condition, rain_tomorrow
+- Final dataset: 91,320 rows × 15 columns
 
 ### Phase 3 — Exploratory Data Analysis
-Eight visualizations were created to understand the structure of Indian 
-weather data. Key findings included that rainfall in India is strongly 
-seasonal peaking in July during the Southwest Monsoon, Mumbai receives 
-the highest average daily rainfall among all 10 cities, and temperature 
-range — an engineered feature — turned out to be the single strongest 
-predictor of rainfall with a -0.67 correlation. Outliers were handled 
-using the IQR method and class imbalance between rainy and non-rainy 
-days was identified and documented for ML model treatment.
+- 8 visualizations created
+- Key finding: temp_range is the strongest predictor of rainfall (-0.67 correlation)
+- Mumbai records highest average daily rainfall among all 10 cities
+- Rainfall peaks in July during Southwest Monsoon season
+- Class imbalance identified: 58% no rain vs 42% rain
 
-
+### Phase 4 — K-Means Clustering + PCA
+- Elbow Method used to determine optimal K=4
+- 4 weather patterns discovered:
+  - 🔵 Cold Winter (13,116 days)
+  - 🟢 Mild Transition (28,164 days)
+  - 🟠 Dry Summer (30,705 days)
+  - 🟣 Heavy Monsoon (19,335 days)
+- PCA used to visualize clusters in 2D
+- Cluster labels added as new feature for ML model
+- 
 ## Author
 
 **Apurva**
