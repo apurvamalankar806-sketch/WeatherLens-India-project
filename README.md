@@ -5,12 +5,12 @@ End-to-end Indian weather analysis and rainfall prediction using Python, Streaml
 
 WeatherLens India is an end-to-end data science project that analyzes 24+ years of Indian weather data to uncover climate patterns, understand rainfall behaviour, and predict whether it will rain on a given day.
 
-The project combines exploratory data analysis, unsupervised clustering, supervised machine learning, and interactive dashboards — built in both Python (Streamlit) and Power BI — to tell a complete story from raw data to actionable insight.
+The project combines exploratory data analysis, unsupervised clustering, supervised machine learning, and interactive dashboards — built in both Python (Streamlit) and Power BI — to tell a complete story from raw data to actionable insights.
 
 ## Project Highlights
 
 - Cleaned and analyzed 24 years of multi-city Indian weather data (2000–2024)
-- Discovered natural weather patterns using K-Means clustering (monsoon, dry-heat, mild)
+- Discovered natural weather patterns using K-means clustering (monsoon, dry-heat, mild)
 - Handled class imbalance using SMOTE — same technique used in real fraud detection systems
 - Trained a Random Forest classifier to predict rainfall with ROC-AUC as the primary metric
 - Built an interactive Streamlit web app with a live ML prediction widget
@@ -139,13 +139,50 @@ streamlit run streamlit_app/app.py
 | Phase | Status |
 |---|---|
 | Data collection | ✅ Done |
-| Data cleaning   | ✅ Done |  ← updated
-| EDA             | 🔄 In Progress |  ← updated
+| Data cleaning   | ✅ Done |
+| EDA             | ✅ Done |
+| Clustering      | 🔄 In Progress |
 | Clustering | ⏳ Upcoming |
 | ML model | ⏳ Upcoming |
 | Streamlit dashboard | ⏳ Upcoming |
 | Power BI dashboard | ⏳ Upcoming |
 | Deployment | ⏳ Upcoming |
+
+## Project Summary
+
+WeatherLens India is an end-to-end data science project that analyzes 
+24 years of Indian weather data to predict whether it will rain on a 
+given day and understand the key atmospheric factors that contribute 
+to rainfall across major Indian cities.
+
+### Phase 1 — Data Collection
+Data was sourced from Kaggle containing daily weather records of 10 
+major Indian cities from 2000 to 2024, covering features like 
+temperature, rainfall, wind speed and weather conditions. A second 
+dataset containing live IMD weather data was considered but dropped 
+due to an empty file issue on Kaggle's end. The primary dataset of 
+91,320 rows was finalized for all downstream phases.
+
+### Phase 2 — Data Cleaning and Feature Engineering
+The raw dataset was cleaned and transformed to make it analysis-ready. 
+Key steps included removing duplicate columns, fixing incorrect date 
+formats, dropping unreliable features like wind direction which showed 
+near-zero correlation with rainfall, and converting numeric weather 
+codes into human-readable condition labels. New meaningful columns were 
+engineered including season, temperature range, and a binary rainfall 
+target variable — bringing the final dataset to 91,320 rows and 15 
+clean columns.
+
+### Phase 3 — Exploratory Data Analysis
+Eight visualizations were created to understand the structure of Indian 
+weather data. Key findings included that rainfall in India is strongly 
+seasonal peaking in July during the Southwest Monsoon, Mumbai receives 
+the highest average daily rainfall among all 10 cities, and temperature 
+range — an engineered feature — turned out to be the single strongest 
+predictor of rainfall with a -0.67 correlation. Outliers were handled 
+using the IQR method and class imbalance between rainy and non-rainy 
+days was identified and documented for ML model treatment.
+
 
 ## Author
 
