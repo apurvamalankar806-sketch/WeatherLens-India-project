@@ -177,7 +177,7 @@ streamlit run streamlit_app/app.py
   - 🟣 Heavy Monsoon (19,335 days)
 - PCA used to visualize clusters in 2D
 - Cluster labels added as new feature for ML model
-- 
+
 ## Author
 
 **Apurva**
