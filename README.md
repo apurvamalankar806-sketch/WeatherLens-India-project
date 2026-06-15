@@ -1,6 +1,19 @@
 # WeatherLens-India-project
 End-to-end Indian weather analysis and rainfall prediction using Python, Streamlit, and Power
 
+## Objective
+
+WeatherLens India is an end-to-end data science project built to analyze 
+24 years of daily weather data across 10 major Indian cities and predict 
+whether it will rain on a given day based on atmospheric conditions.
+
+The project goes beyond simple analysis — it combines unsupervised machine 
+learning (K-Means clustering) to discover hidden weather patterns, and 
+supervised machine learning (Random Forest) to build a real working rainfall 
+prediction system. Results are presented through two parallel dashboards — 
+a Streamlit web app for technical users and a Power BI dashboard for 
+business users — making weather insights accessible to both audiences.
+
 ## Overview
 
 WeatherLens India is an end-to-end data science project that analyzes 24+ years of Indian weather data to uncover climate patterns, understand rainfall behaviour, and predict whether it will rain on a given day.
