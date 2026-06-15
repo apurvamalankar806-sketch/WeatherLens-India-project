@@ -76,13 +76,10 @@ Phase 3 — Unsupervised Learning
   · PCA → dimensionality reduction of 40+ features
   · Cluster label added as new feature column
          ↓
-Phase 4 — Dashboards (parallel)
-  Streamlit (technical audience)    Power BI (business audience)
-         ↓
-Phase 5 — ML Prediction (Random Forest)
-  · SMOTE for class imbalance
-  · Evaluated using ROC-AUC + F1 Score
-  · Embedded as prediction widget in Streamlit
+Phase 5 → ML Model (Random Forest + SMOTE)
+Phase 6 → Streamlit Dashboard (with ML widget embedded)
+Phase 7 → Power BI Dashboard
+Phase 8 → Deployment on Render
 ```
 
 ## Key Questions Answered
