@@ -30,15 +30,6 @@ The project combines exploratory data analysis, unsupervised clustering, supervi
 - Build a Power BI dashboard for visual business storytelling
 - Deploy the Streamlit app on Render as a live accessible web application
 
-## Project Highlights
-
-- Cleaned and analyzed 24 years of multi-city Indian weather data (2000–2024)
-- Discovered natural weather patterns using K-means clustering (monsoon, dry-heat, mild)
-- Handled class imbalance using SMOTE — same technique used in real fraud detection systems
-- Trained a Random Forest classifier to predict rainfall with ROC-AUC as the primary metric
-- Built an interactive Streamlit web app with a live ML prediction widget
-- Built a dark-theme Power BI dashboard for business-friendly visual storytelling
-
 ## Tech Stack
 
 | Layer | Tools |
