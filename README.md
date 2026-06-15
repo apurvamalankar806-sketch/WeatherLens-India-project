@@ -198,6 +198,12 @@ streamlit run streamlit_app/app.py
 - PCA used to visualize clusters in 2D
 - Cluster labels added as new feature for ML model
 
+### Who is this for?
+- **General users** → Want to know if it will rain today based on conditions
+- **Data analysts** → Want to explore Indian weather trends interactively
+- **Data scientists** → Want to understand the ML pipeline and methodology
+- **Business users** → Want clean visual insights through Power BI
+
 ## Author
 
 **Apurva**
