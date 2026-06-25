@@ -207,6 +207,12 @@ Feature importance analysis confirmed this — `rain_sum`
 accounted for 70% of the model's decision making, far higher 
 than any genuine weather feature.
 
+**Fix applied:**
+`rain_sum` was removed from the feature set, leaving only 
+genuine atmospheric indicators (temperature, wind speed, 
+temp range, month, weather cluster) as inputs. The model 
+was retrained from scratch on this leak-free feature set.
+
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
 - **Data analysts** → Want to explore Indian weather trends interactively
