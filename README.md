@@ -196,6 +196,12 @@ suspiciously perfect predictions with probabilities of exactly
 0.0 or 1.0 — a strong indicator of data leakage rather than 
 genuine model performance.
 
+**Root cause identified:**
+The `rain_sum` column (actual rainfall amount) was accidentally 
+included as an input feature. Since the target variable 
+`rain_tomorrow` was directly derived from `rain_sum` 
+(`rain_tomorrow = rain_sum > 0`), the model was essentially 
+given the answer alongside the question.
 
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
