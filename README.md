@@ -203,6 +203,10 @@ included as an input feature. Since the target variable
 (`rain_tomorrow = rain_sum > 0`), the model was essentially 
 given the answer alongside the question.
 
+Feature importance analysis confirmed this — `rain_sum` 
+accounted for 70% of the model's decision making, far higher 
+than any genuine weather feature.
+
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
 - **Data analysts** → Want to explore Indian weather trends interactively
