@@ -213,6 +213,10 @@ genuine atmospheric indicators (temperature, wind speed,
 temp range, month, weather cluster) as inputs. The model 
 was retrained from scratch on this leak-free feature set.
 
+This highlights the importance of validating feature 
+importance and being skeptical of suspiciously perfect 
+results during model development.
+
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
 - **Data analysts** → Want to explore Indian weather trends interactively
