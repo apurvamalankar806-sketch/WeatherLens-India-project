@@ -189,6 +189,14 @@ streamlit run streamlit_app/app.py
 - PCA used to visualize clusters in 2D
 - Cluster labels added as new feature for ML model
 
+## Key Challenge — Data Leakage Detection
+
+While building the Random Forest model, an initial test showed 
+suspiciously perfect predictions with probabilities of exactly 
+0.0 or 1.0 — a strong indicator of data leakage rather than 
+genuine model performance.
+
+
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
 - **Data analysts** → Want to explore Indian weather trends interactively
