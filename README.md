@@ -153,7 +153,7 @@ streamlit run streamlit_app/app.py
 | Data cleaning              | ✅ Done        |
 | EDA                        | ✅ Done        |
 | Clustering (K-Means + PCA) | ✅ Done        |
-| ML model | ⏳ Upcoming |
+| ML Model (Random Forest + SMOTE) | ✅ Done |
 | Streamlit dashboard | ⏳ Upcoming |
 | Power BI dashboard | ⏳ Upcoming |
 | Deployment | ⏳ Upcoming |
