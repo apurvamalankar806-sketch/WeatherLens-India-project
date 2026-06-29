@@ -189,7 +189,7 @@ streamlit run streamlit_app/app.py
 - PCA used to visualize clusters in 2D
 - Cluster labels added as new feature for ML model
 
-## Key Challenge — Data Leakage Detection
+## phase 5:ML Model(Key Challenge — Data Leakage Detection)
 
 While building the Random Forest model, an initial test showed 
 suspiciously perfect predictions with probabilities of exactly 
@@ -216,6 +216,22 @@ was retrained from scratch on this leak-free feature set.
 This highlights the importance of validating feature 
 importance and being skeptical of suspiciously perfect 
 results during model development.
+
+### Phase 6 — Streamlit App
+
+A two-tab interactive web app:
+
+**🔮 Predict Tab**
+Users input city, month, max/min temperature and wind speed 
+to get a live rainfall probability prediction from the trained 
+Random Forest model, displayed via a gauge chart.
+
+**📈 Prediction Insights Tab**
+Shows sensitivity analysis on the user's specific prediction — 
+how rainfall probability would change if temperature range or 
+wind speed were different, with the user's actual input marked 
+on each chart. This adds model explainability directly tied to 
+each user's prediction rather than generic static analysis.
 
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
