@@ -189,7 +189,7 @@ streamlit run streamlit_app/app.py
 - PCA used to visualize clusters in 2D
 - Cluster labels added as new feature for ML model
 
-## phase 5:ML Model(Key Challenge — Data Leakage Detection)
+### phase 5:ML Model(Key Challenge — Data Leakage Detection)
 
 While building the Random Forest model, an initial test showed 
 suspiciously perfect predictions with probabilities of exactly 
