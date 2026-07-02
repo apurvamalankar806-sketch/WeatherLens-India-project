@@ -233,6 +233,12 @@ wind speed were different, with the user's actual input marked
 on each chart. This adds model explainability directly tied to 
 each user's prediction rather than generic static analysis.
 
+**PowerBI Dashboard**
+To bridge the gap between machine learning models and business decision-making, an executive Power BI dashboard was engineered. <br>
+This interface aggregates 91K+ climate records, maps regional rainfall variations across major metropolitan hubs, 
+and surfaces the real-world distribution of the unsupervised weather clusters 
+(e.g., segmenting the data into Heavy Monsoon vs. Mild Transition periods).
+
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
 - **Data analysts** → Want to explore Indian weather trends interactively
