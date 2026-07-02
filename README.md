@@ -93,7 +93,7 @@ Phase 3 — Unsupervised Learning
 Phase 5 → ML Model (Random Forest + SMOTE)
 Phase 6 → Streamlit Dashboard (with ML widget embedded)
 Phase 7 → Power BI Dashboard
-Phase 8 → Deployment on Render
+Phase 8 → Deployment on Render (make Streamlit app live)
 ```
 
 ## Key Questions Answered
