@@ -239,6 +239,12 @@ This interface aggregates 91K+ climate records, maps regional rainfall variation
 and surfaces the real-world distribution of the unsupervised weather clusters 
 (e.g., segmenting the data into Heavy Monsoon vs. Mild Transition periods).
 
+# 🌦️ WeatherLens India
+
+An end-to-end predictive intelligence and climate analytics platform.
+
+🚀 **[Live Interactive App](https://weatherlens-india.onrender.com)** 
+
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
 - **Data analysts** → Want to explore Indian weather trends interactively
