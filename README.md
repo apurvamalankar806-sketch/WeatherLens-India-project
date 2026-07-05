@@ -21,6 +21,7 @@ The project goes beyond simple analysis — it combines unsupervised machine lea
 - Build an interactive Streamlit app where users can input weather conditions and get a live rainfall prediction, along with explainability behind that prediction
 - Build a Power BI dashboard for visual business storytelling
 - Deploy the Streamlit app on Render as a live, publicly accessible web application
+
 ### Who is this for?
 - **General users** → Want to know if it will rain today based on conditions
 - **Data analysts** → Want to explore Indian weather trends interactively
