@@ -23,7 +23,7 @@ The project goes beyond simple analysis — it combines unsupervised machine lea
 - Deploy the Streamlit app on Render as a live, publicly accessible web application
 
 ### Who is this for?
-- **General users** → Want to know if it will rain today based on conditions
+- **General users** → Want to know the chances of raining today based on conditions
 - **Data analysts** → Want to explore Indian weather trends interactively
 - **Data scientists** → Want to understand the full ML pipeline and methodology, including a real data leakage debugging case
 - **Business users** → Want clean visual insights through Power BI
